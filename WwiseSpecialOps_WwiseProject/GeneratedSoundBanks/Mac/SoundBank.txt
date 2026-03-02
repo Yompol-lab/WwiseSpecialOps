@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	965980347	Play_Acapella			\Default Work Unit\Play_Acapella	
+	1940637980	Play_QuickRevive			\Default Work Unit\Play_QuickRevive	
+	2242838109	Play_Nirvana			\Default Work Unit\Play_Nirvana	
+	3221797134	Play_JuggerNog			\Default Work Unit\Play_JuggerNog	
+	3420194785	Play_SnakeEater			\Default Work Unit\Play_SnakeEater	
+	3433173770	Play_Ladder			\Default Work Unit\Play_Ladder	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	8109240	TheManWhoSoldTheWorld	.cache\DF\{DF9FD7AB-06E7-521F-5619-306E005058A2}.wem		\Containers\Default Work Unit\TheManWhoSoldTheWorld		38449248
+	109296965	JuggerNog	.cache\CC\{CC809C43-ED81-E17D-29DE-EA94D07BC439}.wem		\Containers\Default Work Unit\JuggerNog		3848436
+	129991578	QuickRevive	.cache\61\{61DAAFCF-55CE-6234-CED5-F9937CE2DB2D}.wem		\Containers\Default Work Unit\QuickRevive		4983040
+	212293379	SnakeEaterAcapella	.cache\81\{81B60A46-78F5-15B3-321F-479BDD378DFE}.wem		\Containers\Default Work Unit\SnakeEaterAcapella		28237920
+	409026240	ClimbingLadder	.cache\EB\{EB01C499-5708-2196-24A7-5B0CD52D3AD9}.wem		\Containers\Default Work Unit\ClimbingLadder		257004
+	769644512	SnakeEater	.cache\D1\{D1DBAA6B-A2D7-EE79-DE7E-93D051607230}.wem		\Containers\Default Work Unit\SnakeEater		31237984
+

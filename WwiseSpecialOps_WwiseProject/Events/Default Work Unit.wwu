@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E1101441-AF2A-4F26-B75C-3C96A4496566}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E1101441-AF2A-4F26-B75C-3C96A4496566}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E1101441-AF2A-4F26-B75C-3C96A4496566}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Ladder" ID="{AE512DD6-598C-4078-9F12-578D0B928F4F}">
+					<ChildrenList>
+						<Action Name="" ID="{0A7793CC-FCFB-4730-98AF-35CC7BB87AA4}" ShortID="482666587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClimbingLadder" ID="{887904DA-89CE-45E9-AD81-5D532D39F9CA}" WorkUnitID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SnakeEater" ID="{305D072C-B79F-4407-9F26-9886DED43B8F}">
+					<ChildrenList>
+						<Action Name="" ID="{5DDD88E3-E2D2-4103-B8F3-31B08C95F954}" ShortID="884477957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SnakeEater" ID="{7AAF7379-7A30-4C1F-B214-9A9B2A6160A7}" WorkUnitID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Acapella" ID="{499B1301-B3F3-4E21-9C54-9E9537BBD741}">
+					<ChildrenList>
+						<Action Name="" ID="{69D244E1-A339-4B04-A2C7-6A1F87BD11E2}" ShortID="41815405">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SnakeEaterAcapella" ID="{554A8D9A-C4D9-4E59-B9B4-EBE184B8B92B}" WorkUnitID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Nirvana" ID="{73998CDE-99F6-49B3-91A3-1EEC2A52075D}">
+					<ChildrenList>
+						<Action Name="" ID="{9B6F1C74-4C5C-4EE0-BD0B-A85C1CC72974}" ShortID="619031888">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheManWhoSoldTheWorld" ID="{5FB4361B-A6C7-43D8-9AD9-5A88C5FE91AF}" WorkUnitID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_QuickRevive" ID="{8DB5FDD4-759B-48D9-A026-3A4188C5F1B9}">
+					<ChildrenList>
+						<Action Name="" ID="{16A2C116-C147-4F29-86FF-84DF65C1FE6F}" ShortID="165816541">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="QuickRevive" ID="{488EE72D-DC54-48F1-8BDD-A65E7596D4E9}" WorkUnitID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JuggerNog" ID="{124C8F71-4B16-4CA1-A6A0-CAAC58B7265E}">
+					<ChildrenList>
+						<Action Name="" ID="{D6C4B15A-F98C-426C-816F-B47F9A6122F0}" ShortID="1038022588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JuggerNog" ID="{F807B509-2E86-4245-BF2D-EA64A616B42E}" WorkUnitID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

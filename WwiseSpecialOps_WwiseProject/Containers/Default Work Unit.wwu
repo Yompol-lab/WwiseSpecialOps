@@ -1,6 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}" SchemaVersion="133">
 	<Containers>
-		<WorkUnit Name="Default Work Unit" ID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E6E8DD95-516A-4B82-A5A0-46DCA7C989A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ClimbingLadder" ID="{887904DA-89CE-45E9-AD81-5D532D39F9CA}" ShortID="1050992147">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44F5A050-EE51-456C-B008-A0087725CEAE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3AD4944D-5BFA-44EE-97B4-B3C40AE1318C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ClimbingLadder" ID="{C2ED8C37-BF9D-44F7-9D7E-F652176DE0F0}">
+							<Language>SFX</Language>
+							<AudioFile>ClimbingLadder.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="409026240"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ClimbingLadder" ID="{C2ED8C37-BF9D-44F7-9D7E-F652176DE0F0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="TheManWhoSoldTheWorld" ID="{5FB4361B-A6C7-43D8-9AD9-5A88C5FE91AF}" ShortID="544702028">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-21</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44F5A050-EE51-456C-B008-A0087725CEAE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3AD4944D-5BFA-44EE-97B4-B3C40AE1318C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TheManWhoSoldTheWorld" ID="{02343C5A-B9F5-434D-9315-498955A90BDD}">
+							<Language>SFX</Language>
+							<AudioFile>TheManWhoSoldTheWorld.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="8109240"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TheManWhoSoldTheWorld" ID="{02343C5A-B9F5-434D-9315-498955A90BDD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SnakeEater" ID="{7AAF7379-7A30-4C1F-B214-9A9B2A6160A7}" ShortID="478005592">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44F5A050-EE51-456C-B008-A0087725CEAE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3AD4944D-5BFA-44EE-97B4-B3C40AE1318C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SnakeEater" ID="{8C9F0B00-ACFD-46D9-A10C-B17894FD4CDC}">
+							<Language>SFX</Language>
+							<AudioFile>SnakeEater.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="769644512"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SnakeEater" ID="{8C9F0B00-ACFD-46D9-A10C-B17894FD4CDC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SnakeEaterAcapella" ID="{554A8D9A-C4D9-4E59-B9B4-EBE184B8B92B}" ShortID="523975784">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44F5A050-EE51-456C-B008-A0087725CEAE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3AD4944D-5BFA-44EE-97B4-B3C40AE1318C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SnakeEaterAcapella" ID="{6D6B6A19-2F0B-40D5-888C-9D050C283640}">
+							<Language>SFX</Language>
+							<AudioFile>SnakeEaterAcapella.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="212293379"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SnakeEaterAcapella" ID="{6D6B6A19-2F0B-40D5-888C-9D050C283640}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="JuggerNog" ID="{F807B509-2E86-4245-BF2D-EA64A616B42E}" ShortID="532819408">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="JuggerAttenuation" ID="{E121C6EC-1F07-4909-9A63-D464DE066CEA}" WorkUnitID="{77D97BA5-DAAA-467C-9EF5-C75037DE7C61}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44F5A050-EE51-456C-B008-A0087725CEAE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3AD4944D-5BFA-44EE-97B4-B3C40AE1318C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="JuggerNog" ID="{9CBA65C1-230B-467D-B464-65F4D809FE0A}">
+							<Language>SFX</Language>
+							<AudioFile>JuggerNog.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="109296965"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="JuggerNog" ID="{9CBA65C1-230B-467D-B464-65F4D809FE0A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="QuickRevive" ID="{488EE72D-DC54-48F1-8BDD-A65E7596D4E9}" ShortID="39923440">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ReviveAttenuations" ID="{E121F600-F3CA-4E80-B63E-70E1F0EC04E4}" WorkUnitID="{77D97BA5-DAAA-467C-9EF5-C75037DE7C61}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44F5A050-EE51-456C-B008-A0087725CEAE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3AD4944D-5BFA-44EE-97B4-B3C40AE1318C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="QuickRevive" ID="{47EFF0E5-9B7A-48CF-B51C-B1E26D0504A9}">
+							<Language>SFX</Language>
+							<AudioFile>QuickRevive.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="129991578"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="QuickRevive" ID="{47EFF0E5-9B7A-48CF-B51C-B1E26D0504A9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</Containers>
 </WwiseDocument>

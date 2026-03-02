@@ -1,0 +1,153 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1661994096",
+    "Type": "User",
+    "GUID": "{E19D5D08-62E9-4ED2-9443-883393B851F6}",
+    "Language": "SFX",
+    "Hash": "{E8644CA8-C1CA-ACAB-5EA7-D089AE085B15}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
+    "ShortName": "SoundBank",
+    "Path": "SoundBank.bnk",
+    "Media": [
+     {
+      "Id": "8109240",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TheManWhoSoldTheWorld.wav",
+      "CachePath": "DF/{DF9FD7AB-06E7-521F-5619-306E005058A2}.wem"
+     },
+     {
+      "Id": "109296965",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JuggerNog.wav",
+      "CachePath": "CC/{CC809C43-ED81-E17D-29DE-EA94D07BC439}.wem"
+     },
+     {
+      "Id": "129991578",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "QuickRevive.wav",
+      "CachePath": "61/{61DAAFCF-55CE-6234-CED5-F9937CE2DB2D}.wem"
+     },
+     {
+      "Id": "212293379",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SnakeEaterAcapella.wav",
+      "CachePath": "81/{81B60A46-78F5-15B3-321F-479BDD378DFE}.wem"
+     },
+     {
+      "Id": "409026240",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ClimbingLadder.wav",
+      "CachePath": "EB/{EB01C499-5708-2196-24A7-5B0CD52D3AD9}.wem"
+     },
+     {
+      "Id": "769644512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SnakeEater.wav",
+      "CachePath": "D1/{D1DBAA6B-A2D7-EE79-DE7E-93D051607230}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "965980347",
+      "Name": "Play_Acapella",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Acapella",
+      "GUID": "{499B1301-B3F3-4E21-9C54-9E9537BBD741}",
+      "DurationType": "OneShot",
+      "DurationMin": "160.07837",
+      "DurationMax": "160.07837",
+      "MediaRefs": [
+       {
+        "Id": "212293379"
+       }
+      ]
+     },
+     {
+      "Id": "3221797134",
+      "Name": "Play_JuggerNog",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_JuggerNog",
+      "GUID": "{124C8F71-4B16-4CA1-A6A0-CAAC58B7265E}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "109296965"
+       }
+      ]
+     },
+     {
+      "Id": "3433173770",
+      "Name": "Play_Ladder",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ladder",
+      "GUID": "{AE512DD6-598C-4078-9F12-578D0B928F4F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "409026240"
+       }
+      ]
+     },
+     {
+      "Id": "2242838109",
+      "Name": "Play_Nirvana",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Nirvana",
+      "GUID": "{73998CDE-99F6-49B3-91A3-1EEC2A52075D}",
+      "DurationType": "OneShot",
+      "DurationMin": "217.96571",
+      "DurationMax": "217.96571",
+      "MediaRefs": [
+       {
+        "Id": "8109240"
+       }
+      ]
+     },
+     {
+      "Id": "1940637980",
+      "Name": "Play_QuickRevive",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_QuickRevive",
+      "GUID": "{8DB5FDD4-759B-48D9-A026-3A4188C5F1B9}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "129991578"
+       }
+      ]
+     },
+     {
+      "Id": "3420194785",
+      "Name": "Play_SnakeEater",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SnakeEater",
+      "GUID": "{305D072C-B79F-4407-9F26-9886DED43B8F}",
+      "DurationType": "OneShot",
+      "DurationMin": "177.08553",
+      "DurationMax": "177.08553",
+      "MediaRefs": [
+       {
+        "Id": "769644512"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A54AEBC3-6E35-5658-FD3C-9F4D82BD073D}"
+ }
+}
